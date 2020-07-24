@@ -9,7 +9,7 @@ def count_th(word):
     target_length = len("th")
     word_length = len(word)
     # base cases
-    if word_length == 0 or word_length < target_length:
+    if word_length < target_length:
         return 0
     if target in word is False:
         return 0
